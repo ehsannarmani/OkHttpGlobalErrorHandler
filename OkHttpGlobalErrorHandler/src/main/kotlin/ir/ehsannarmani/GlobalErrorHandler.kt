@@ -39,14 +39,14 @@ class GlobalErrorHandler(
                     if (ignoreStrategy == ClientErrorsStrategy::class)
                         return originalResponse
 
-                    onCatch(GlobalError.ClientError(error = stringBody,statusCode))
+                    onCatch(GlobalError.ClientError(error = stringBody, statusCode))
                 }
                 in 500..599->{
                     // server error
                     if (ignoreStrategy == ServerErrorsStrategy::class)
                         return originalResponse
 
-                    onCatch(GlobalError.ServerError(error = stringBody,statusCode))
+                    onCatch(GlobalError.ServerError(error = stringBody, statusCode))
                 }
             }
         }
