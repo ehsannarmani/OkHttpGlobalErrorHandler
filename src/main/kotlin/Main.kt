@@ -1,6 +1,5 @@
 package ir.ehsannarmani
 
-import GlobalErrorHandlerInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Call
 import retrofit2.Callback
