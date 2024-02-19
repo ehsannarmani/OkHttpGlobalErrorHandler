@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "ir.ehsannarmani"
-version = "0.0.1"
+version = "0.0.2"
 
 repositories {
     mavenCentral()
@@ -33,7 +33,7 @@ publishing {
                 from(components["java"])
                 groupId = "com.github.ehsannarmani"
                 artifactId = "OkHttpGlobalErrorHandler"
-                version = "0.0.1"
+                version = "0.0.2"
             }
         }
     }
