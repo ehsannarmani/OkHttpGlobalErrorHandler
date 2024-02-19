@@ -1,7 +1,6 @@
-package annotation
+package ir.ehsannarmani.annotation
 
 import kotlin.reflect.KClass
-
 
 @Target(AnnotationTarget.FUNCTION)
 annotation class IgnoreGlobalErrorHandling (
