@@ -1,4 +1,4 @@
-# OkHttp Global Error Handler
+# A Library For Handling OkHttp Errors Globally
 ### A simple interceptor to catch client and server errors.
 ### Using On OkHttp Client:
 ```kotlin
