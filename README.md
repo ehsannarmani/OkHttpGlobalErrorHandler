@@ -26,7 +26,7 @@ val retrofit = Retrofit
     .client(client)
     .build()
 ```
-### Ignoring Global Error Handler On Specify EndPoints:
+### Ignoring Errors On Specify EndPoints:
 > Ignoring All Errors:
 ```kotlin
 interface Api {
